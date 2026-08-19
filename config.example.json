@@ -1,0 +1,35 @@
+{
+  "discord": {
+    "application_id": "PUT_YOUR_DISCORD_APPLICATION_ID_HERE",
+    "update_interval": 10
+  },
+  "presence": {
+    "rotate_screens": true,
+    "assets": {
+      "large_image": "ubuntu",
+      "large_text": "Ubuntu 26.04 LTS",
+      "small_image": "{health_image}",
+      "small_text": "{health_icon} System {health}"
+    },
+    "screens": [
+      {
+        "details": "{health_icon} Ubuntu 26.04 LTS • {session}",
+        "state": "CPU {cpu} • RAM {ram_percent} • Disk {disk_percent}"
+      },
+      {
+        "details": "🎮 {gpu_short} • {gpu_temp} • GPU {gpu_util}",
+        "state": "VRAM {vram_used}/{vram_total} MB • PRIME {prime}"
+      },
+      {
+        "details": "⚙️ Kernel {kernel} • {desktop}",
+        "state": "CPU {cpu} • {cpu_freq} • Uptime {uptime}"
+      },
+      {
+        "details": "{health_icon} System {health} • {prime}",
+        "state": "RAM {ram_used}/{ram_total} GB • {gpu_temp} GPU"
+      }
+    ],
+    "health_services": [],
+    "buttons": []
+  }
+}
