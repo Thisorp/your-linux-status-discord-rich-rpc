@@ -147,11 +147,6 @@ For a cleaner Discord card:
 Linux Workstation
 ```
 
-Instead of:
-
-```text
-My Ubuntu War
-```
 
 The application name is the title Discord displays for the activity. The Rich Presence activity documentation explains that the application/game name supplies the first activity line, while `details` and `state` control the following activity lines. 
 
